@@ -2,6 +2,7 @@ import { Suspense, useEffect } from 'react';
 import type { MouseEvent } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, useMotionValue, useMotionTemplate } from 'motion/react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Analytics } from '@vercel/analytics/react';
 import { personalData } from './data';
 import { 
@@ -395,6 +396,7 @@ export default function App() {
           </Suspense>
           <ResumeBtn />
           <Footer />
+          <SpeedInsights />
           <Analytics />
         </div>
       </Router>
