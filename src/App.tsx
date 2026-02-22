@@ -2,6 +2,7 @@ import { Suspense, useEffect } from 'react';
 import type { MouseEvent } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { motion, useMotionValue, useMotionTemplate } from 'motion/react';
+import { Analytics } from '@vercel/analytics/react';
 import { personalData } from './data';
 import { 
   Linkedin, Mail, ExternalLink, 
@@ -394,6 +395,7 @@ export default function App() {
           </Suspense>
           <ResumeBtn />
           <Footer />
+          <Analytics />
         </div>
       </Router>
     </ThemeProvider>
