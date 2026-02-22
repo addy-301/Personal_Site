@@ -19,7 +19,7 @@ export default function ResumeBtn() {
       </AnimatePresence>
 
       <motion.a
-        href="./src/assets/Aditya_Verma_resume__updated_.pdf"
+        href="./Aditya_Verma_resume__updated_.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center justify-center bg-[var(--accent)] text-white rounded-full shadow-lg hover:shadow-xl transition-shadow overflow-hidden relative z-10"
