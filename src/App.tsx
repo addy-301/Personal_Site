@@ -1,13 +1,11 @@
-import { Suspense, lazy, useEffect } from 'react';
+import { Suspense, useEffect } from 'react';
 import type { MouseEvent } from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import { motion, useScroll, useSpring, useMotionValue, useMotionTemplate } from 'motion/react';
+import { motion, useMotionValue, useMotionTemplate } from 'motion/react';
 import { personalData } from './data';
 import { 
-  Github, Linkedin, Mail, MapPin, Phone, ExternalLink, 
-  Code2, Database, Cloud, Award, Terminal, ChevronDown, 
-  Briefcase, GraduationCap, Cpu, Atom, Brain, Globe, Server, 
-  Layout, Coffee, FileJson, Braces, Rocket
+  Linkedin, Mail, ExternalLink, 
+  Code2, Database, Cloud, Award, Terminal, GraduationCap, Cpu, Rocket
 } from 'lucide-react';
 import Navbar from './components/Navbar';
 import ResumeBtn from './components/ResumeBtn';
@@ -31,44 +29,6 @@ function HomePage() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-12">
         <RecentWork />
         <SkillsSection />
-      </div>
-    </div>
-  );
-}
-
-function ExperiencePage() {
-  return (
-    <div className="pt-24 max-w-7xl mx-auto px-6 md:px-12 pb-20">
-      <SectionHeader title="Experience" subtitle="My Professional Journey" />
-      <div className="space-y-12">
-        {personalData.experience.map((exp, index) => (
-          <motion.div 
-            key={index}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="grid md:grid-cols-[300px_1fr] gap-8 group"
-          >
-            <div className="md:text-right">
-              <h3 className="text-2xl font-bold text-[var(--text-primary)] group-hover:text-[var(--accent)] transition-colors">{exp.company}</h3>
-              <p className="text-[var(--accent)] font-mono text-sm mt-1">{exp.period}</p>
-              <p className="text-[var(--text-secondary)] text-sm mt-1">{exp.location}</p>
-            </div>
-            
-            <div className="relative pl-8 md:pl-12 border-l border-[var(--glass-border)]">
-              <div className="absolute left-[-5px] top-2 w-2.5 h-2.5 rounded-full bg-[var(--accent)] shadow-[0_0_10px_var(--accent)] group-hover:scale-150 transition-transform duration-300" />
-              <h4 className="text-xl font-medium text-[var(--text-primary)] mb-4">{exp.role}</h4>
-              <ul className="space-y-3">
-                {exp.description.map((item, i) => (
-                  <li key={i} className="text-[var(--text-secondary)] leading-relaxed text-sm md:text-base flex items-start gap-3">
-                    <span className="mt-2 w-1 h-1 rounded-full bg-[var(--text-secondary)] shrink-0" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </motion.div>
-        ))}
       </div>
     </div>
   );
