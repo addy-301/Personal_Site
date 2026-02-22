@@ -11,6 +11,7 @@ import Navbar from './components/Navbar';
 import ResumeBtn from './components/ResumeBtn';
 import About from './components/About';
 import { ThemeProvider } from './context/ThemeContext';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -396,6 +397,7 @@ export default function App() {
           <Footer />
         </div>
       </Router>
+      <SpeedInsights />
     </ThemeProvider>
   );
 }
