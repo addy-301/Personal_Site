@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, Phone, ExternalLink, Code2, Database, Cloud, Award, Terminal } from 'lucide-react';
+import { Github, Linkedin, Mail } from 'lucide-react';
 
 export const personalData = {
   name: "Aditya Verma",
