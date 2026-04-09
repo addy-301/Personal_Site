@@ -62,7 +62,7 @@ export const personalData = {
   skills: {
     technical: ["Python", "Java", "JavaScript", "HTML/CSS", "Spark", "GenAI", "AI/ML", "Git", "Docker"],
     database: ["SQL", "MongoDB"],
-    tools: ["ReactJS", "ExpressJS", "Hive", "Hadoop", "TailwindCSS"],
+    tools: ["ReactJS", "ExpressJS", "Hive", "TailwindCSS"],
     cloud: ["Google Cloud Platform"]
   },
   certifications: [
