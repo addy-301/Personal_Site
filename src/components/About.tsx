@@ -38,10 +38,10 @@ export default function AboutPage() {
           className="text-[var(--text-secondary)] text-lg leading-relaxed space-y-6"
         >
           <p>
-            I am Aditya Verma, a Data Engineer at <span className="text-[var(--accent)] font-medium">Tata Consultancy Services (TCS)</span> working at client location for <span className="text-[var(--accent)] font-medium">Reserve Bank of India (RBI)</span>. I specialize in building well-engineered consumer products that solve real-world problems.
+            I am Aditya Verma, a Software Engineer at <span className="text-[var(--accent)] font-medium">Tata Consultancy Services (TCS)</span> working with client <span className="text-[var(--accent)] font-medium">Reserve Bank of India (RBI)</span>. I specialize in building well-engineered consumer products that solve real-world problems.
           </p>
           <p>
-            With a Bachelors in Technology from Graphic Era University, I have contributed to developing new features and optimizing applications using JavaScript, React and Redux. I am currently part of the data modernization team for Centralised Information Management System serving <span className="text-[var(--accent)] font-medium">Reserve Bank of India</span> as client.
+            With a Bachelors in Technology from Graphic Era University, I have contributed to developing new features and optimizing applications using JavaScript, React and Redux. I am part of a core development team for <span className="text-[var(--accent)] font-medium">Reserve Bank of India</span>, managing humongous amount of data from various banks.
           </p>
         </motion.div>
         
