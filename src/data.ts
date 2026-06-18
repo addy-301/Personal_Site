@@ -2,14 +2,14 @@ import { Github, Linkedin, Mail } from 'lucide-react';
 
 export const personalData = {
   name: "Aditya Verma",
-  role: "Data Engineer",
+  role: "Software Engineer",
   email: "vaditya832@gmail.com",
   socials: [
     { name: "LinkedIn", icon: Linkedin, url: "https://www.linkedin.com/in/-aditya-verma-/" },
     { name: "GitHub", icon: Github, url: "https://github.com/addy-301" },
     { name: "Email", icon: Mail, url: "mailto:vaditya832@gmail.com" }
   ],
-  summary: "Engineered and optimized Python & PySpark-based ETL pipelines to modernize RBI’s CIMS Data Lake. Passionate about transforming raw data into actionable insights and building scalable systems.",
+  summary: "As an SWE, I have contributed towards modernization of central repository for RBI using Python, PySpark and Java. I am part of a core development team for RBI, managing humongous amount of data from various banks.",
   education: [
     {
       degree: "Bachelor's of Technology in Computer Science and Engineering",
@@ -19,15 +19,16 @@ export const personalData = {
   ],
   experience: [
     {
-      role: "Data Engineer",
+      role: "Software Engineer",
       company: "TCS",
       location: "Mumbai, Maharashtra",
       period: "November, 2025 - Current",
       description: [
-        "Engineered and optimized Python & PySpark-based ETL pipelines to modernize RBI’s CIMS Data Lake, transforming regulatory reporting from Report-Based-Returns (RBR) to Element-Based-Returns (EBR).",
-        "Developed scalable Spark data transformation scripts for large-volume financial data processing, leveraging SQL, Hive, and Impala.",
-        "Implemented data validation, cleansing, normalisation, and mapping logics to ensure regulatory compliance and data integrity.",
-        "Optimized SQL queries and Spark jobs to enhance processing efficiency and reduce execution time across distributed data environments."
+        "Designed and developed scalable backend systems using Python and PySpark as part of the Reserve Bank of India’s Centralised Information Management System modernization, enabling the transition from report-based to element-based data architecture for 200+ regulatory workflows across ~15,000 financial institutions.",
+        "Architected and implemented bi-directional data processing frameworks, including ingestion of structured SDMX data and dynamic generation of regulatory reports, powering both real-time query platforms and end-user reporting systems.",
+        "Built high-performance data processing modules leveraging distributed computing (Apache Spark), optimizing data transformation, validation, and mapping logic to ensure system reliability, consistency, and regulatory compliance at scale.",
+        "Engineered robust data pipelines and backend services integrating SQL and Hive, focusing on performance optimization, fault tolerance, and maintainability in large-scale production environments."
+        "Led the development and optimization of large-scale data migration systems, identifying and resolving system-level defects, ensuring accurate and consistent transformation of legacy datasets into the new architecture."
       ]
     }
   ],
@@ -55,14 +56,15 @@ export const personalData = {
     }
   ],
   achievements: [
+    "Secured 1st place amongst 15 teams battling for 7 hours creating a well-documented and working RAG based application for given problem statement in an internal AI Hackathon."
     "Secured 3rd rank in Graphic Era Coding Competition (ICCC).",
     "Qualified for 2nd round twice for TechWizard (Inter-University coding contest).",
     "Qualified for Round 2 of INFAthon (Informatica Code-a-thon)."
   ],
   skills: {
-    technical: ["Python", "Java", "JavaScript", "HTML/CSS", "PySpark", "GenAI", "AI/ML"],
+    technical: ["Python", "Java", "JavaScript", "HTML/CSS", "Spark", "GenAI", "AI/ML"],
     database: ["SQL", "MongoDB"],
-    tools: ["ReactJS", "ExpressJS", "Hive", "TailwindCSS"],
+    tools: ["ReactJS", "ExpressJS", "Mongoose", "Apache Spark", "TailwindCSS, Git, Docker"],
     cloud: ["Google Cloud Platform"]
   },
   certifications: [
