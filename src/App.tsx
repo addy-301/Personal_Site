@@ -303,7 +303,7 @@ function Hero() {
               className="h-[1px] bg-[var(--accent)]"
             />
             <span className="text-[var(--accent)] font-mono text-sm tracking-widest uppercase flex items-center gap-2">
-               <Rocket size={14} /> Data Engineer & Full Stack Developer
+               <Rocket size={14} /> Software Engineer & Full Stack Developer
             </span>
           </div>
           
@@ -314,7 +314,7 @@ function Hero() {
           
           <div className="max-w-2xl">
             <p className="text-xl md:text-2xl text-[var(--text-secondary)] font-light leading-relaxed mb-8">
-              <span className="text-[var(--text-primary)] font-medium">Building</span> scalable data systems and crafting elegant digital experiences. Currently engineering the future of regulatory reporting at <span className="text-[var(--accent)]">TCS</span>.
+              <span className="text-[var(--text-primary)] font-medium">Building</span> scalable systems and crafting elegant digital experiences. Currently engineering the future of regulatory reporting at <span className="text-[var(--accent)]">TCS</span>.
             </p>
             
             <div className="flex flex-wrap gap-4">

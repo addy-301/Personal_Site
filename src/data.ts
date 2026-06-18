@@ -27,7 +27,7 @@ export const personalData = {
         "Designed and developed scalable backend systems using Python and PySpark as part of the Reserve Bank of India’s Centralised Information Management System modernization, enabling the transition from report-based to element-based data architecture for 200+ regulatory workflows across ~15,000 financial institutions.",
         "Architected and implemented bi-directional data processing frameworks, including ingestion of structured SDMX data and dynamic generation of regulatory reports, powering both real-time query platforms and end-user reporting systems.",
         "Built high-performance data processing modules leveraging distributed computing (Apache Spark), optimizing data transformation, validation, and mapping logic to ensure system reliability, consistency, and regulatory compliance at scale.",
-        "Engineered robust data pipelines and backend services integrating SQL and Hive, focusing on performance optimization, fault tolerance, and maintainability in large-scale production environments."
+        "Engineered robust data pipelines and backend services integrating SQL and Hive, focusing on performance optimization, fault tolerance, and maintainability in large-scale production environments.",
         "Led the development and optimization of large-scale data migration systems, identifying and resolving system-level defects, ensuring accurate and consistent transformation of legacy datasets into the new architecture."
       ]
     }
@@ -56,7 +56,7 @@ export const personalData = {
     }
   ],
   achievements: [
-    "Secured 1st place amongst 15 teams battling for 7 hours creating a well-documented and working RAG based application for given problem statement in an internal AI Hackathon."
+    "Secured 1st place amongst 15 teams battling for 7 hours creating a well-documented and working RAG based application for given problem statement in an internal AI Hackathon.",
     "Secured 3rd rank in Graphic Era Coding Competition (ICCC).",
     "Qualified for 2nd round twice for TechWizard (Inter-University coding contest).",
     "Qualified for Round 2 of INFAthon (Informatica Code-a-thon)."
