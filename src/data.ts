@@ -62,7 +62,7 @@ export const personalData = {
     "Qualified for Round 2 of INFAthon (Informatica Code-a-thon)."
   ],
   skills: {
-    technical: ["Python", "Java", "JavaScript", "HTML/CSS", "Spark", "GenAI", "AI/ML"],
+    technical: ["Python", "Java", "JavaScript", "HTML/CSS", "RAG", "Agentic AI"],
     database: ["SQL", "MongoDB"],
     tools: ["ReactJS", "ExpressJS", "Mongoose", "TailwindCSS", "Git", "Docker"],
     cloud: ["Google Cloud Platform"]
